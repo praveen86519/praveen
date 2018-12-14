@@ -1,10 +1,10 @@
 pipeline {
 /*
 	environment {
-        MAVEN_HOME = tool('maven3.5')
+        MAVEN_HOME = tool('maven3.6.0')
     }
 */
-	agent none   
+	agent any
 
 
 	stages {
