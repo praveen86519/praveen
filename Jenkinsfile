@@ -4,7 +4,7 @@ pipeline {
         MAVEN_HOME = tool('maven3.6.0')
     }
 */
-	agent any
+	agent 'any'
 
 
 	stages {
